@@ -2,6 +2,7 @@ package com._604robotics.robotnik.inspector.model.collection;
 
 import edu.wpi.first.wpilibj.tables.ITable;
 import edu.wpi.first.wpilibj.tables.ITableListener;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -23,7 +24,7 @@ public abstract class NetworkSectionCollection extends SectionCollection impleme
     
     private void scanKeys () {
         final String[] keys = this.table.getString("__index", "").split(";");
-
+        
         for (String key : keys) {
             if (!key.equals("") && !this.knownKeys.contains(key)) {
                 this.knownKeys.add(key);
