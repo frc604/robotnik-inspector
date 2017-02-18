@@ -12,8 +12,6 @@ public class Inspector {
         loadingWindow.setVisible(true);
         
         NetworkTable.setClientMode();
-        
-        NetworkTable.setIPAddress("10.6.4.2");
         NetworkTable.setTeam(604);
         
         final NetworkTable table = NetworkTable.getTable("robotnik");

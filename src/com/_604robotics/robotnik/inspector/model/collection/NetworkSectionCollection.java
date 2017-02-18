@@ -2,7 +2,6 @@ package com._604robotics.robotnik.inspector.model.collection;
 
 import edu.wpi.first.wpilibj.tables.ITable;
 import edu.wpi.first.wpilibj.tables.ITableListener;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 

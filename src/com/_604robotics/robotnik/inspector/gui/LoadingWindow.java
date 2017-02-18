@@ -11,10 +11,10 @@ public class LoadingWindow extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         this.setLocation(64, 64);
-        this.setSize(205, 50);
+        this.setSize(205, 100);
         
         this.setLayout(new BorderLayout());
         
-        this.add(new JLabel(" ... Connecting to 10.6.4.2 ... "), BorderLayout.CENTER);
+        this.add(new JLabel(" ... Connecting to 604 robot ... "), BorderLayout.CENTER);
     }
 }
